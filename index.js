@@ -18,6 +18,7 @@ function driversByRevenue(arrDrivers){
   });
 return arr1;
 }
+
 function driversByName(arrDrivers){
     const arr1=arrDrivers.slice();
   arr1.sort(function(a,b){
@@ -25,12 +26,10 @@ function driversByName(arrDrivers){
   });
 return arr1;
 }
-
+const sum=(tot,curr)=>tot+curr;
 function totalRevenue(arrDrivers){
-  let sum=arrDrivers.reduce(function(tot,curr){
-    return tot.revenue+curr.revenue;
-  });
-  return sum;
+    return reduce(sum.revenue);
+  
 }
 /*function averageRevenue(arrDrivers){
   return arrDrivers.reduce(sum)/arrDrivers.length;
