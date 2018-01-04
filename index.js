@@ -23,7 +23,7 @@ function driversByName(arrDrivers){
   arr1.sort(function(a,b){
     return a.localeCompare(b);
   });
-return arrDrivers;
+return arr1;
 }
 const sum=(tot,curr)=>tot+cur;
 function totalRevenue(arrDrivers){
