@@ -28,9 +28,8 @@ return arr1;
 }
 //const sum=(tot,curr)=>tot+curr;
 function totalRevenue(arrDrivers){
-    const sum=arrDrivers.reduce(function(a.revenue,b.revenue){
-      return a.revenue+b.revenue;
-    });
+    const sum=arrDrivers.reduce(
+       (a.revenue,b.revenue)=> a.revenue+b.revenue,0);
     return sum;
 }
 /*function averageRevenue(arrDrivers){
