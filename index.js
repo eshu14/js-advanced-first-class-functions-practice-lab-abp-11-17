@@ -21,7 +21,7 @@ return arr1;
 function driversByName(arrDrivers){
     const arr1=arrDrivers.slice();
   arr1.sort(function(a,b){
-    return a.localeCompare(b);
+    return a.name.localeCompare(b.name);
   });
 return arr1;
 }
