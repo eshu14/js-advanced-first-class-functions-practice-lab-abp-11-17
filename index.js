@@ -12,17 +12,16 @@ function logDriversByHometown(arrDrivers,town){
   });
 }
 function driversByRevenue(arrDrivers){
-  //const arr1={};
-  arrDrivers.sort(function(a,b){
+  const arr1=arrDrivers.sort(function(a,b){
    return a.revenue-b.revenue;
   });
-//return arr1;
+return arr1;
 }
 function driversByName(arrDrivers){
   arrDrivers.sort(function(a,b){
     return a.localeCompare(b);
   });
-return
+return arrDrivers;
 }
 const sum=(tot,curr)=>tot+cur;
 function totalRevenue(arrDrivers){
