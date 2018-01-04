@@ -25,9 +25,9 @@ function driversByName(arrDrivers){
   });
 return arr1;
 }
-const sum=(tot,curr)=>tot+curr;
-function totalRevenue(arrDrivers){
 
+function totalRevenue(arrDrivers){
+  const sum=(tot,curr)=>tot+curr;
   return arrDrivers.reduce(sum);
 }
 function averageRevenue(arrDrivers){
