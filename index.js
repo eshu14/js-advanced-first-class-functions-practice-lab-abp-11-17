@@ -26,10 +26,12 @@ function driversByName(arrDrivers){
   });
 return arr1;
 }
-const sum=(tot,curr)=>tot+curr;
+//const sum=(tot,curr)=>tot+curr;
 function totalRevenue(arrDrivers){
-    return arrDrivers.reduce(sum);
-
+    const sum= arrDrivers.reduce(function(a.revenue,b.revenue){
+      return a.revenue+b.revenue;
+    });
+    return sum;
 }
 /*function averageRevenue(arrDrivers){
   return arrDrivers.reduce(sum)/arrDrivers.length;
