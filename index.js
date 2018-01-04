@@ -28,7 +28,7 @@ return arr1;
 }
 //const sum=(tot,curr)=>tot+curr;
 function totalRevenue(arrDrivers){
-    const sum= arrDrivers.reduce(function(a.revenue,b.revenue){
+    let sum= arrDrivers.reduce(function(a.revenue,b.revenue){
       return a.revenue+b.revenue;
     });
     return sum;
