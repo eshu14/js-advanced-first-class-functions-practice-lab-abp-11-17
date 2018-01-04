@@ -32,7 +32,7 @@ function totalRevenue(arrDrivers){
   });
   return sum;
 }
-function averageRevenue(arrDrivers){
+/*function averageRevenue(arrDrivers){
   return arrDrivers.reduce(sum)/arrDrivers.length;
 
-}
+}*/
